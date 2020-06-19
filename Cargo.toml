@@ -1,5 +1,7 @@
 [package]
 name = "drop-abort"
+description = "Abort the future when the handle is dropped."
+license = "MIT"
 version = "0.1.0"
 authors = ["spacelin <spacelin@tencent.com>"]
 edition = "2018"
