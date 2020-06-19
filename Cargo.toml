@@ -1,0 +1,11 @@
+[package]
+name = "drop-abort"
+version = "0.1.0"
+authors = ["spacelin <spacelin@tencent.com>"]
+edition = "2018"
+
+[dependencies]
+futures-util = { version = "0.3.5", default-features = false }
+
+[dev-dependencies]
+futures = { version = "0.3.5", default-features = false, features = ["executor"] }
